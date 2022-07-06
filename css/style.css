@@ -30,4 +30,43 @@
 
 body{
 	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* .logo{
+width: 270px;
+height: 100.95px;
+} */
+
+.flex-container{
+	display: flex;
+	border:1px solid blue;
+	width: 670px;
+	height: 63px;
+}
+.divik{
+width: 134px;
+height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;;
+}
+
+.h6-style{
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
 }
