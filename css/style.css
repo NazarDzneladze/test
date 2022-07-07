@@ -134,9 +134,7 @@
 	text-align: center;
 }
 
-.flex-elem3{
 
-}
 
 .p-style-intro{
 	font-family: 'Raleway';
@@ -183,8 +181,38 @@ a{
 /* header and intro end */
 
 
-/* first section start */
+/* second section start */
+
+.second-section{
+	position: relative;
+	height: 950px;
+	background: #E5E5E5;
+}
+
+.second-section-container{
+	position: absolute;
+	top: 116px;
+	bottom: 116px;
+	border-bottom: 1px solid blue;
+	border-top: 1px solid red;
+}
+
+.second-section-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1170px;
+	justify-content: space-between;
+}
+.second-section-elem{
+width: 370px;
+height: 305px;
+border: 1px solid red;
+}
+
+.modifier-second{
+	margin-top:89px;
+}
 
 
-
-/* first section end */
+/* second section end */
