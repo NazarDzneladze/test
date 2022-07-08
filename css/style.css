@@ -249,10 +249,79 @@ top: 220px;
 
 .pSecondPosition{
 	width: 370px;
-position: absolute;
-top:129px;
-text-align: center;
+	position: absolute;
+	top:129px;
+	text-align: center;
 }
 
 
 /* second section end */
+
+
+/* third section start */
+
+.thirdSectionFlex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thirdSectionFlex div:active{
+	background: rgba(185, 12, 12, 0.8);
+}
+
+.thirdSectionFlex div:hover{
+	background: rgba(255, 67, 67, 0.8);
+}
+
+
+.div1{
+background-image: url(../img/work_1.svg);
+border: 2px solid #FFFFFF;
+width: 378px;
+height: 340px;
+}
+
+.div2{
+	background-image: url(../img/work_2.svg);
+	border: 2px solid #FFFFFF;
+	width: 378px;
+height: 340px;
+}
+.div3{
+	background-image: url(../img/Rectangle\ 17.svg);
+	border: 2px solid #FFFFFF;
+	width: 378px;
+height: 340px;
+}
+.div4{
+	background-image: url(../img/work_4.svg);	
+	border: 2px solid #FFFFFF;
+	width: 378px;
+height: 340px;
+}
+.div5{
+	background-image: url(../img/work_5.svg);	
+	border: 2px solid #FFFFFF;
+	width: 378px;
+height: 340px;
+}
+.div6{
+	background-image: url(../img/work_6.svg);
+	border: 2px solid #FFFFFF;
+	width: 378px;
+height: 340px;	
+}
+.div7{
+	background-image: url(../img/work_7.svg);
+	border: 2px solid #FFFFFF;	
+	width: 378px;
+height: 340px;
+}
+.div8{
+	background-image: url(../img/work_8.svg);
+	border: 2px solid #FFFFFF;	
+	width: 378px;
+height: 340px;
+}
+
+/* third section end */
