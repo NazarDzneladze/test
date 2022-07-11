@@ -263,6 +263,7 @@ top: 220px;
 .thirdSectionFlex{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 114px;
 }
 
 
@@ -323,3 +324,68 @@ text-transform: uppercase;
 }
 
 /* third section end */
+
+/* fourth section start */
+.person-info__container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 114px;
+	}
+
+.person{
+	width: 270px;
+	height: 619px;
+}
+
+.image-fourth{
+	margin-bottom: 30px;
+}
+
+.h3-style-fourth{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #2D3033;
+	margin-bottom: 5px;
+}
+.position-fourth{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color:  #FF4343;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.person-info{
+	width: 270px;
+	height: 168px;
+	margin-bottom: 38px;
+}
+
+.p-fourth-style{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color:#6C7279;
+}
+
+.site-ico{
+	display: flex;
+	flex-wrap: wrap;
+	width: 127px;
+	justify-content: space-between;
+}
+
+
+
+
+/* fourth section end */
